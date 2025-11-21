@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kalkulator prosty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Kalkulator</h1>
+
+    <div class="row">
+      <label for="number1">Liczba 1</label>
+      <input id="number1" type="text" inputmode="decimal" />
+    </div>
+
+    <div class="row">
+      <label for="number2">Liczba 2</label>
+      <input id="number2" type="text" inputmode="decimal" />
+    </div>
+
+    <div class="buttons">
+      <button id="add">+</button>
+      <button id="subtract">−</button>
+      <button id="multiply">×</button>
+      <button id="divide">÷</button>
+    </div>
+
+    <div class="row">
+      <label for="result">Wynik</label>
+      <input id="result" type="text" readonly />
+    </div>
+
+    <div id="error" hidden></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

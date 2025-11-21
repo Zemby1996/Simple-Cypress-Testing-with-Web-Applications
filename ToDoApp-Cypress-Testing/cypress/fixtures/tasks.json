@@ -1,0 +1,5 @@
+[
+  { "text": "Zadanie 1", "done": false },
+  { "text": "Zadanie 2", "done": true },
+  { "text": "Zadanie 3", "done": false }
+]
